@@ -1,0 +1,37 @@
+// Colors
+// ---------------------------------
+
+$color-default-black:               #000000;
+$color-default-white:               #ffffff;
+$color-zumthor:                     #c0dbd9;
+$color-jordy-blue:                  #7faff6;
+$color-pale-cornflower-blue:        #a5c7f9;
+$color-conifer:                     #b3f95a;
+$color-de-york:                     #8ad191;
+$color-glacier:                     #88b5bf;
+$color-bondi-blue:                  #0d89b0;
+
+// Typography
+// ---------------------------------
+
+// переменная используемая в html для подключения скейлинга
+$fz-default:                        16px;
+$ff-roboto:                         "Roboto", "Arial", sans-serif;
+
+// Viewports
+// ---------------------------------
+
+$vp-320:                            320px;
+$vp-375:                            375px;
+$vp-430:                            430px;
+$vp-768:                            768px;
+$vp-1024:                           1024px;
+$vp-1280:                           1280px;
+$vp-1440:                           1440px;
+$vp-1920:                           1920px;
+
+// Retina
+// ---------------------------------
+
+$retina-dpi:                        144dpi;
+$retina-dppx:                       1.5dppx;

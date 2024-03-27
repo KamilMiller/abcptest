@@ -1,0 +1,18 @@
+.block-2 {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 2.57%;
+  margin-bottom: 100px;
+  padding: 2.57%;
+  background-color: $color-glacier;
+
+  @include vp-1023 {
+    margin-bottom: 50px;
+  }
+
+  &__item {
+    width: 100%;
+    padding-top: 78%;
+    background-color: $color-bondi-blue;
+  }
+}

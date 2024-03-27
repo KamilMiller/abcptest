@@ -1,0 +1,8 @@
+mixin block-1()
+  - let count = 1;
+
+  section.block-1
+    h2.block-1__title.visually-hidden Block-1 Title
+    while count <= 5
+      .block-1__item(class=`block-1__item--${count}`)
+      - count += 1;

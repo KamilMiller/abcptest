@@ -1,0 +1,14 @@
+extends ../components/base/layout
+
+block variables
+  - const title = "abcp - Test Task"
+
+
+block main
+  main
+    h1.title.visually-hidden Main Title
+    +block-1()
+    +block-2()
+
+block modal
+  +modal()

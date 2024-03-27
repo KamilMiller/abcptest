@@ -1,0 +1,5 @@
+mixin modal()
+  dialog.modal(id="modal")
+    .modal__content
+      h2.modal__title Pop-Up
+      +btn({text: "X"}).btn--close.modal__close-button(aria-label="Close", onclick="modal.close()")

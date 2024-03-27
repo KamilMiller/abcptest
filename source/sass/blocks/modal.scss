@@ -1,0 +1,34 @@
+.modal {
+  width: 100%;
+  max-width: 440px;
+  padding: 20px;
+  background-color: transparent;
+  border: none;
+  outline: 0;
+
+  &__content {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    min-height: 400px;
+    padding: 20px;
+    background-color: $color-default-white;
+    box-shadow: 4px 4px 8px 0px rgba($color-default-black, 0.2);
+  }
+
+  &__title {
+    font-family: $ff-roboto;
+      font-weight: 400;
+      font-size: 53px;
+      color: $color-default-black;
+  }
+
+  &__close-button {
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    z-index: 10;
+  }
+}
